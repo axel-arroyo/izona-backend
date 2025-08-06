@@ -1,0 +1,16 @@
+{
+  "name": "izona-backend-dev",
+  "dockerComposeFile": "../../docker-compose.yml",
+  "service": "backend",
+  "workspaceFolder": "/usr/src/app",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/sh"
+      },
+      "extensions": [
+        "AbhijoyBasak.nestjs-files"
+      ]
+    }
+  }
+}
